@@ -1,0 +1,12 @@
+C:\MyMVCApplication1\MyMVCProject.Utility\bin\Debug\net7.0\MyMVCProject.Utility.deps.json
+C:\MyMVCApplication1\MyMVCProject.Utility\bin\Debug\net7.0\MyMVCProject.Utility.dll
+C:\MyMVCApplication1\MyMVCProject.Utility\bin\Debug\net7.0\MyMVCProject.Utility.pdb
+C:\MyMVCApplication1\MyMVCProject.Utility\obj\Debug\net7.0\MyMVCProject.Utility.csproj.AssemblyReference.cache
+C:\MyMVCApplication1\MyMVCProject.Utility\obj\Debug\net7.0\MyMVCProject.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyMVCApplication1\MyMVCProject.Utility\obj\Debug\net7.0\MyMVCProject.Utility.AssemblyInfoInputs.cache
+C:\MyMVCApplication1\MyMVCProject.Utility\obj\Debug\net7.0\MyMVCProject.Utility.AssemblyInfo.cs
+C:\MyMVCApplication1\MyMVCProject.Utility\obj\Debug\net7.0\MyMVCProject.Utility.csproj.CoreCompileInputs.cache
+C:\MyMVCApplication1\MyMVCProject.Utility\obj\Debug\net7.0\MyMVCProject.Utility.dll
+C:\MyMVCApplication1\MyMVCProject.Utility\obj\Debug\net7.0\refint\MyMVCProject.Utility.dll
+C:\MyMVCApplication1\MyMVCProject.Utility\obj\Debug\net7.0\MyMVCProject.Utility.pdb
+C:\MyMVCApplication1\MyMVCProject.Utility\obj\Debug\net7.0\ref\MyMVCProject.Utility.dll

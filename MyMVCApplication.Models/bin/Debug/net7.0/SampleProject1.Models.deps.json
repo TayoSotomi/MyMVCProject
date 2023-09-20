@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SampleProject1.Models/1.0.0": {
+        "runtime": {
+          "SampleProject1.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SampleProject1.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

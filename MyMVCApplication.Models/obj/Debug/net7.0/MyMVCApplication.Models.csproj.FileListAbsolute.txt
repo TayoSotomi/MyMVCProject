@@ -1,0 +1,12 @@
+C:\MyMVCApplication1\MyMVCApplication.Models\bin\Debug\net7.0\MyMVCApplication.Models.deps.json
+C:\MyMVCApplication1\MyMVCApplication.Models\bin\Debug\net7.0\MyMVCApplication.Models.dll
+C:\MyMVCApplication1\MyMVCApplication.Models\bin\Debug\net7.0\MyMVCApplication.Models.pdb
+C:\MyMVCApplication1\MyMVCApplication.Models\obj\Debug\net7.0\MyMVCApplication.Models.csproj.AssemblyReference.cache
+C:\MyMVCApplication1\MyMVCApplication.Models\obj\Debug\net7.0\MyMVCApplication.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyMVCApplication1\MyMVCApplication.Models\obj\Debug\net7.0\MyMVCApplication.Models.AssemblyInfoInputs.cache
+C:\MyMVCApplication1\MyMVCApplication.Models\obj\Debug\net7.0\MyMVCApplication.Models.AssemblyInfo.cs
+C:\MyMVCApplication1\MyMVCApplication.Models\obj\Debug\net7.0\MyMVCApplication.Models.csproj.CoreCompileInputs.cache
+C:\MyMVCApplication1\MyMVCApplication.Models\obj\Debug\net7.0\MyMVCApplication.Models.dll
+C:\MyMVCApplication1\MyMVCApplication.Models\obj\Debug\net7.0\refint\MyMVCApplication.Models.dll
+C:\MyMVCApplication1\MyMVCApplication.Models\obj\Debug\net7.0\MyMVCApplication.Models.pdb
+C:\MyMVCApplication1\MyMVCApplication.Models\obj\Debug\net7.0\ref\MyMVCApplication.Models.dll
