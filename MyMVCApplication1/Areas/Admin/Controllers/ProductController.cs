@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using SampleProject1.DataAccess.Repository.IRepository;
 using SampleProject1.Models;
+using SampleProject1.Models.ViewModels;
+using System.Collections.Generic;
 
 namespace SampleProject1Web.Areas.Admin.Controllers
 {   
@@ -22,57 +25,55 @@ namespace SampleProject1Web.Areas.Admin.Controllers
                 return View(productList);
             }
 
-            public IActionResult Create()
-            {
-                return View();
+            public IActionResult Upsert(int? id)
+            {               
+            
+                ProductVM productVM = new()
+                {
+                    CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                    {
+                        Text = u.Name,
+                        Value = u.Id.ToString(),
+                    }),
+                    Product = new Product()
+                };
+                if (id == null || id == 0)
+                {
+                return View(productVM);
+
+                }
+                else
+                {
+                productVM.Product = _unitOfWork.Product.Get(u => u.Id == id);
+
+                 return View(productVM);
+                }
+               
             }
             [HttpPost]
-            public IActionResult Create(Product obj)
-            {
-                if (obj.Title == obj.Author.ToString())
-                {
-                    ModelState.AddModelError("title", "Title and Author cant have the same value");
-                }
+            public IActionResult Upsert(ProductVM productVM,IFormFile? file)
+            {              
 
                 if (ModelState.IsValid)
                 {
-                    _unitOfWork.Product.Add(obj);
+                    _unitOfWork.Product.Add(productVM.Product);
                     _unitOfWork.Save();
                     TempData["success"] = "Product was created succesfully";
                     return RedirectToAction("Index");
-                }
-                return View();
-
-            }
-
-            public IActionResult Edit(int id)
-            {
-                if (id == null || id == 0)
+                }           
+                else    //ensures the dropdown is populated again        
                 {
-                    return NotFound();
-                }
-                Product productFromDb = _unitOfWork.Product.Get(u => u.Id == id);
-                if (productFromDb == null)
+                productVM.CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
                 {
-                    return NotFound();
-                }
-                return View(productFromDb);
-            }
+                    Text = u.Name,
+                    Value = u.Id.ToString(),
+                });
+                return View(productVM);
 
-            [HttpPost]
-            public IActionResult Edit(Product obj)
-            {
+                }              
 
-                if (ModelState.IsValid)
-                {
-                    _unitOfWork.Product.Update(obj);
-                    _unitOfWork.Save();
-                    TempData["success"] = "Product was updated succesfully";
-                    return RedirectToAction("Index");
-                }
-                return View();
-
-            }
+            }        
+            
             public IActionResult Delete(int id)
             {
                 if (id == null || id == 0)

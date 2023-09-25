@@ -257,3 +257,6 @@ C:\MyMVCApplication1\MyMVCApplication1\obj\Debug\net7.0\refint\SampleProject1Web
 C:\MyMVCApplication1\MyMVCApplication1\obj\Debug\net7.0\SampleProject1Web.pdb
 C:\MyMVCApplication1\MyMVCApplication1\obj\Debug\net7.0\SampleProject1Web.genruntimeconfig.cache
 C:\MyMVCApplication1\MyMVCApplication1\obj\Debug\net7.0\ref\SampleProject1Web.dll
+C:\MyMVCApplication1\MyMVCApplication1\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\MyMVCApplication1\MyMVCApplication1\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\MyMVCApplication1\MyMVCApplication1\obj\Debug\net7.0\SampleProject1Web.MvcApplicationPartsAssemblyInfo.cs
