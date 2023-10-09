@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SampleProject1Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\MyMVCApplication1\\MyMVCApplication1\\wwwroot\\Images\\Product\\7addc3a4-f277-488c-a50b-0ae12bd95c56.png",
+      "PackagePath": "staticwebassets\\Images\\Product\\7addc3a4-f277-488c-a50b-0ae12bd95c56.png"
+    },
+    {
       "Id": "C:\\MyMVCApplication1\\MyMVCApplication1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

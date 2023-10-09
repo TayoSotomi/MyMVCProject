@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NhWI3yxxDFdTtYvHCRouN34RULflkyW7WabHHdOMYag=",
+  "Hash": "uAdgfETCOmH1niDaI+KJLngUVNG1W1IE+BCBb4HeAHA=",
   "Source": "SampleProject1Web",
   "BasePath": "_content/SampleProject1Web",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\MyMVCApplication1\\MyMVCApplication1\\wwwroot\\Images\\Product\\7addc3a4-f277-488c-a50b-0ae12bd95c56.png",
+      "SourceId": "SampleProject1Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMVCApplication1\\MyMVCApplication1\\wwwroot\\",
+      "BasePath": "_content/SampleProject1Web",
+      "RelativePath": "Images/Product/7addc3a4-f277-488c-a50b-0ae12bd95c56.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Product\\7addc3a4-f277-488c-a50b-0ae12bd95c56.png"
     },
     {
       "Identity": "C:\\MyMVCApplication1\\MyMVCApplication1\\wwwroot\\js\\site.js",
